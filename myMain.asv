@@ -23,6 +23,6 @@ imgDCTI = transformAndFilterDCT(I);
 
 figure(3),imagesc(imgDCTI), colormap('gray');
 
-P = imgResid+imgComp;
+imgPredFinal = imgResid+imgComp;
 
-B1R = imgBTreated(B1,imgDCTI,imgPredFinal,0.25,0.75);
+B1R = imgBTreated(B2,imgDCTI,imgPredFinal,);

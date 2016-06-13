@@ -1,0 +1,7 @@
+function result = imgBTreated(B,I,P,block_size)
+
+imCompLeft = MotionImage(B,P);
+
+
+
+result = 
